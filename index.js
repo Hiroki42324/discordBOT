@@ -5,7 +5,7 @@ app.listen(3000, () => {
     console.log('Bot is running🚀');
 });
 
-app.gety('/', (req, res) => {
+app.get('/', (req, res) => {
     res.send('Hello World!');
 });
 
